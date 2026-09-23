@@ -1,0 +1,191 @@
+# All Interview Qestions — Interview Questions
+
+This file is an **index of questions asked in this interview source**. Answers are stored once in `Question-Bank/` so the same question does not need to be edited in multiple company files.
+
+**Unique questions in this source:** 61
+
+- **TF-004 — Azure Landing Zone & Terraform**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-004>)
+- **MISC-074 — What is the module?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-074>)
+- **AZ-010 — Can you explain any Azure Landing Zone you have created or were part of creating?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-010>)
+- **MISC-025 — Have you created a module?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-025>)
+- **MISC-066 — What is a resource module and pattern module?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-066>)
+- **TF-053 — What is the best practice to manage the Terraform state file?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-053>)
+- **TF-009 — Do you know Terraform dependencies?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-009>)
+- **MISC-003 — Can you explain implicit and explicit dependencies?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-003>)
+- **CICD-008 — Azure DevOps Pipelines**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-008>)
+- **CICD-010 — Can you explain any pipeline you have created recently?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-010>)
+- **CICD-009 — Can you explain a multi-stage pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-009>)
+- **MISC-078 — What options can we pass in the trigger section and what is their use?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-078>)
+- **MISC-031 — How do you define stage dependencies so Stage 2 runs only after Stage 1 completes?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-031>)
+- **MISC-012 — Do you know about the Manual Validation stage?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-012>)
+- **TF-018 — How do you implement a validation stage between Terraform Plan and Apply?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-018>)
+- **TF-035 — If Terraform Plan is going to delete important resources, how would you stop the pipeline?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-035>)
+- **TF-038 — Terraform**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-038>)
+- **TF-010 — Do you know Terraform Provisioners?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-010>)
+- **MISC-062 — What are Local and Remote Provisioners?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-062>)
+- **GIT-006 — Git & Azure Repos**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-006>)
+- **TF-036 — If the Terraform code is already stored in Azure Repos, what is the process to pull it into your local VS Code, make changes, and deploy?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-036>)
+- **GIT-004 — Do you create a feature branch or work directly on the main branch?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-004>)
+- **CICD-004 — Azure DevOps**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-004>)
+- **MISC-016 — Do you know Work Items?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-016>)
+- **MISC-014 — Do you know Sprints?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-014>)
+- **MISC-015 — Do you know Stakeholder and Basic access?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-015>)
+- **CICD-003 — Are you working on Azure DevOps?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-003>)
+- **MISC-013 — Do you know Service Connections?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-013>)
+- **MISC-030 — How do you create a Service Connection?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-030>)
+- **MISC-077 — What is the use of a Service Connection?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-077>)
+- **TF-040 — Terraform Variables & Iteration**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-040>)
+- **TF-011 — Do you know the Terraform data types?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-011>)
+- **MISC-071 — What is the difference between a List and a Map?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-071>)
+- **MISC-061 — What are foreach and count?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-061>)
+- **MISC-053 — If you created five resources using count and want to delete only the fourth resource, what happens?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-053>)
+- **TF-006 — Can you use both foreach and count together in the same Terraform resource?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-006>)
+- **MISC-064 — What is a Data Block?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-064>)
+- **AZ-005 — Azure Infrastructure**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-005>)
+- **PROJ-005 — How many Azure subscriptions are there in your current project?**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-005>)
+- **K8S-013 — Kubernetes (AKS)**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-013>)
+- **K8S-001 — Are you working on AKS clusters?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-001>)
+- **K8S-012 — If you get a chance, how many AKS clusters are there in your environment?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-012>)
+- **MISC-010 — Do you have access to those clusters?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-010>)
+- **MISC-007 — Current Role**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-007>)
+- **MISC-093 — Which tools are you currently working with in your project?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-093>)
+- **AZ-006 — Azure Key Vault**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-006>)
+- **AZ-013 — Do you know Azure Key Vault?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-013>)
+- **AZ-052 — What is the use of Azure Key Vault?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-052>)
+- **CICD-035 — How do you integrate Azure Key Vault with Azure DevOps Pipelines?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-035>)
+- **CICD-006 — Azure DevOps Agents**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-006>)
+- **CICD-065 — What is a Microsoft-hosted Agent?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-065>)
+- **PROJ-011 — Which agent are you using in your current project?**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-011>)
+- **CICD-030 — How did you create the Self-hosted Agent?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-030>)
+- **CICD-054 — Is your Self-hosted Agent running on a VM or VMSS?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-054>)
+- **CICD-016 — Do you know the steps to create a Self-hosted Agent?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-016>)
+- **K8S-007 — Docker & Kubernetes**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-007>)
+- **K8S-006 — Do you know AKS and Docker?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-006>)
+- **DOC-002 — Can you explain a Multi-stage Dockerfile?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-002>)
+- **DOC-006 — What are CMD and ENTRYPOINT in Docker?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-006>)
+- **MISC-076 — What is the RUN command?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-076>)
+- **MISC-073 — What is the difference between COPY and ADD?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-073>)
+
+> **Future workflow:** add a new question once to the appropriate `Question-Bank` file, then link it from the company file. This prevents duplicate answer maintenance.

@@ -1,0 +1,203 @@
+# Impressico Businees Solution — Interview Questions
+
+This file is an **index of questions asked in this interview source**. Answers are stored once in `Question-Bank/` so the same question does not need to be edited in multiple company files.
+
+**Unique questions in this source:** 65
+
+- **MISC-054 — Impressico business solution**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-054>)
+- **MISC-057 — Project & Architecture**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-057>)
+- **PROJ-006 — Tell me about your last project.**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-006>)
+- **MISC-089 — What was the project architecture?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-089>)
+- **MISC-091 — What were your responsibilities in that project?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-091>)
+- **MISC-087 — What was the business requirement of the project?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-087>)
+- **MISC-041 — How is the data from satellites sent to your system?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-041>)
+- **SCN-014 — Is this application deployed in production?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-014>)
+- **MISC-040 — How is the application deployed?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-040>)
+- **AZ-043 — What Azure services are used to deploy this application?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-043>)
+- **AZ-056 — Which Azure resources are you responsible for?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-056>)
+- **TF-007 — CI/CD & Terraform**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-007>)
+- **CICD-022 — Explain your CI/CD pipeline.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-022>)
+- **CICD-069 — What stages are there in your Azure DevOps pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-069>)
+- **MISC-086 — What validations and scanning tools do you use before deployment?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-086>)
+- **SCN-006 — How do you promote code from Dev → QA → Production?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-006>)
+- **SCN-007 — How is approval handled before production deployment?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-007>)
+- **TF-002 — Are you following a modular Terraform approach?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-002>)
+- **AZ-005 — Azure Infrastructure**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-005>)
+- **TF-060 — Which Azure services are you creating through Terraform?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-060>)
+- **AZ-004 — Are you using Virtual Machine Scale Sets (VMSS)?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-004>)
+- **AZ-017 — How did you create the Azure Virtual Network?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-017>)
+- **AZ-045 — What components are created inside a VNet?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-045>)
+- **AZ-044 — What CIDR/IP range are you using for your VNet?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-044>)
+- **AZ-059 — Why did you create separate frontend and backend subnets?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-059>)
+- **AZ-034 — Load Balancer & VMSS**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-034>)
+- **AZ-057 — Why are you using Azure Load Balancer?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-057>)
+- **AZ-023 — How does Azure Load Balancer distribute traffic?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-023>)
+- **MISC-042 — How many virtual machines are there?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-042>)
+- **AZ-003 — Are all VMs part of one VMSS or multiple VMSS?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-003>)
+- **AZ-058 — Why are you using multiple VM Scale Sets?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-058>)
+- **AZ-053 — What workloads are running on each VMSS?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-053>)
+- **MON-012 — Monitoring**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-012>)
+- **MON-024 — Which monitoring tools are you using?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-024>)
+- **MON-014 — What dashboards are you monitoring?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-014>)
+- **MON-005 — How are you monitoring application health?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-005>)
+- **AZ-007 — Azure Landing Zone**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-007>)
+- **AZ-015 — Explain your Azure Landing Zone.**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-015>)
+- **MISC-065 — What is a Management Group (MG)?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-065>)
+- **MISC-095 — Why are you using Management Groups?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-095>)
+- **LIN-010 — Why separate subscriptions for Dev, QA/UAT and Production?**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-010>)
+- **MISC-075 — What is the purpose of Resource Groups?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-075>)
+- **LIN-009 — What is the purpose of Azure Subscriptions?**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-009>)
+- **AZ-060 — Why do organizations implement Azure Landing Zones?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-060>)
+- **MISC-059 — Security**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-059>)
+- **MISC-083 — What security measures are you taking?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-083>)
+- **CICD-074 — Which security scanning tools are used in your pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-074>)
+- **SEC-018 — What do SAST and DAST mean?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-018>)
+- **SEC-003 — Are SAST and DAST software or methodologies?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-003>)
+- **SEC-008 — Disaster Recovery**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-008>)
+- **SEC-020 — What is your Disaster Recovery strategy?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-020>)
+- **MISC-094 — Why Active-Passive instead of Active-Active?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-094>)
+- **MISC-035 — How do you synchronize the DR environment?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-035>)
+- **MISC-034 — How do you synchronize the database in Active-Passive DR?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-034>)
+- **MISC-020 — Explain RTO and RPO.**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-020>)
+- **SCN-017 — Production Issues**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-017>)
+- **SCN-020 — What is the most challenging production issue you have faced?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-020>)
+- **MISC-021 — Explain the issue in detail.**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-021>)
+- **SCN-005 — How did you troubleshoot it?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-005>)
+- **MISC-028 — How did you identify the root cause?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-028>)
+- **SCN-004 — How did you perform the rollback?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-004>)
+- **SCN-022 — What was your rollback strategy?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-022>)
+- **CICD-020 — Explain how rollback works internally in your CI/CD pipeline.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-020>)
+- **CICD-037 — How does the pipeline identify the previous working version?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-037>)
+- **CICD-038 — How does the pipeline redeploy the old build?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-038>)
+
+> **Future workflow:** add a new question once to the appropriate `Question-Bank` file, then link it from the company file. This prevents duplicate answer maintenance.

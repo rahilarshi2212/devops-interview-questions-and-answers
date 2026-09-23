@@ -1,0 +1,157 @@
+# Reference Notes — Azure-Funsamental &Governance
+
+This file preserves the source workbook's study topics/questions. It is reference material, not a claim that every listed topic has a supplied answer in the workbook.
+
+- Volume 1 – Azure Fundamentals & Governance*
+- * *Azure Architecture*
+- * *Azure Regions & Region Pairs*
+- * *Availability Zones*
+- * *Azure Resource Manager (ARM)*
+- * *Microsoft Entra ID*
+- * *Management Groups*
+- * *Subscriptions*
+- * *Resource Groups*
+- * *Tags*
+- * *Azure Policy*
+- * *Initiatives*
+- * *Resource Locks*
+- * *RBAC (Role-Based Access Control)*
+- * *ABAC (Attribute-Based Access Control)*
+- * *Privileged Identity Management (PIM)*
+- * *Conditional Access*
+- * *Identity Protection*
+- * *Azure Landing Zone*
+- * *Enterprise-Scale Architecture*
+- ---
+- # *📘 Volume 2 – Azure Networking (Deep Dive)*
+- * *Virtual Network (VNet)*
+- * *Subnets*
+- * *Network Security Groups (NSG)*
+- * *Application Security Groups (ASG)*
+- * *User Defined Routes (UDR)*
+- * *NAT Gateway*
+- * *Azure DNS*
+- * *Private DNS*
+- * *Service Endpoints*
+- * *Private Endpoints*
+- * *Virtual Network Peering*
+- * *Global VNet Peering*
+- * *VPN Gateway*
+- * *Point-to-Site (P2S) VPN*
+- * *Site-to-Site (S2S) VPN*
+- * *VNet-to-VNet Connectivity*
+- * *ExpressRoute*
+- * *Virtual WAN*
+- * *Azure Firewall*
+- * *Azure Bastion*
+- * *Azure DDoS Protection*
+- ---
+- # *📘 Volume 3 – Compute*
+- * *Azure Virtual Machines (VM)*
+- * *Virtual Machine Scale Sets (VMSS)*
+- * *Availability Sets*
+- * *Availability Zones*
+- * *Dedicated Hosts*
+- * *Azure App Service*
+- * *App Service Plan*
+- * *Azure Functions*
+- * *Logic Apps*
+- * *Azure Container Apps*
+- * *Azure Container Instances (ACI)*
+- ---
+- # *📘 Volume 4 – Storage & Database*
+- * *Azure Storage Account*
+- * *Blob Storage*
+- * *Azure Files*
+- * *Queue Storage*
+- * *Table Storage*
+- * *Managed Disks*
+- * *Azure SQL Database*
+- * *Azure SQL Managed Instance*
+- * *Azure Cosmos DB*
+- * *Azure Database for PostgreSQL*
+- * *Azure Database for MySQL*
+- * *Azure Cache for Redis*
+- ---
+- # *📘 Volume 5 – Security*
+- * *Azure Key Vault*
+- * *Microsoft Defender for Cloud*
+- * *Microsoft Sentinel*
+- * *Web Application Firewall (WAF)*
+- * *Azure Firewall*
+- * *Network Security Groups (NSG)*
+- * *Application Security Groups (ASG)*
+- * *Azure Policy*
+- * *Encryption (At Rest & In Transit)*
+- * *Managed Identity*
+- * *Secrets & Certificates Management*
+- * *Zero Trust Architecture*
+- ---
+- # *📘 Volume 6 – Monitoring & Observability*
+- * *Azure Monitor*
+- * *Log Analytics Workspace*
+- * *Application Insights*
+- * *Alerts*
+- * *Metrics*
+- * *Diagnostic Settings*
+- * *Azure Workbooks*
+- * *Managed Prometheus*
+- * *Managed Grafana*
+- ---
+- # *📘 Volume 7 – Backup & Disaster Recovery*
+- * *Azure Backup*
+- * *Recovery Services Vault*
+- * *Backup Vault*
+- * *Azure Site Recovery (ASR)*
+- * *Region Pairs*
+- * *Geo-Replication*
+- * *Recovery Point Objective (RPO)*
+- * *Recovery Time Objective (RTO)*
+- * *Failover*
+- * *Failback*
+- ---
+- # *📘 Volume 8 – DevOps & Infrastructure as Code (IaC)*
+- * *Git*
+- * *GitHub*
+- * *Azure DevOps*
+- * *Azure Pipelines*
+- * *Terraform*
+- * *Bicep*
+- * *ARM Templates*
+- * *CI/CD Pipelines*
+- * *Blue-Green Deployment*
+- * *Canary Deployment*
+- * *Rollback Strategies*
+- ---
+- # *📘 Volume 9 – Enterprise Architecture*
+- * *Cloud Adoption Framework (CAF)*
+- * *Azure Landing Zones*
+- * *Hub-and-Spoke Architecture*
+- * *Enterprise Networking*
+- * *Multi-Subscription Design*
+- * *Multi-Region Design*
+- * *High Availability (HA)*
+- * *Disaster Recovery (DR)*
+- * *Cost Optimization*
+- * *Governance*
+- * *Production Readiness Checklists*
+- ---
+- # *📖 Har Topic ka Standard Format*
+- Har *Azure Service* ko *Architect-Level* depth me isi structure ke saath cover kiya jayega:
+- 1. *Introduction*
+- 2. *Why This Service Exists*
+- 3. *Architecture*
+- 4. *Core Components*
+- 5. *Step-by-Step Request Flow*
+- 6. *Real-World Production Use Cases*
+- 7. *Architecture & Design Considerations*
+- 8. *Microsoft Best Practices*
+- 9. *Security Best Practices*
+- 10. *Monitoring & Observability*
+- 11. *Backup & Disaster Recovery*
+- 12. *Cost Optimization Techniques*
+- 13. *Common Interview Questions*
+- 14. *Real-Time Troubleshooting Scenarios*
+- 15. *Hands-on Implementation*
+- 16. *Terraform Implementation (Where Applicable)*
+- 17. *Production Readiness Checklist*

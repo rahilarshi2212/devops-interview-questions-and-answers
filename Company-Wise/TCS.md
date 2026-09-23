@@ -1,0 +1,242 @@
+# TCS Qustion — Interview Questions
+
+This file is an **index of questions asked in this interview source**. Answers are stored once in `Question-Bank/` so the same question does not need to be edited in multiple company files.
+
+**Unique questions in this source:** 78
+
+- **PROJ-001 — Brief me about yourself, your skill set, and your current project.**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-001>)
+- **PROJ-004 — Explain your recent project end-to-end.**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-004>)
+- **AZ-026 — How would you design an Azure Landing Zone from scratch?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-026>)
+- **AZ-014 — Explain Azure Landing Zone step by step.**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-014>)
+- **AZ-039 — What are the different types of Azure Landing Zones?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-039>)
+- **AZ-061 — Why is Azure Landing Zone important?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-061>)
+- **MISC-018 — Explain Hub-and-Spoke architecture in detail.**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-018>)
+- **AZ-025 — How would you design a Multi-Region Azure Landing Zone?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-025>)
+- **SEC-011 — How would you handle Identity, Networking, and Disaster Recovery in a Multi-Region Landing Zone?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-011>)
+- **AZ-055 — Where would you associate User Defined Routes (UDRs) in a Landing Zone?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-055>)
+- **AZ-027 — How would you implement Azure Firewall?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-027>)
+- **AZ-024 — How would you define and control traffic flow in Azure?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-024>)
+- **AZ-019 — How do you ensure all traffic passes through Azure Firewall?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-019>)
+- **CICD-026 — Have you worked on Multi-Region deployments and onboarding pipelines?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-026>)
+- **MISC-023 — Explain your Multi-Region deployment experience.**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-023>)
+- **SCN-016 — Production deployment succeeded, but the application is unavailable. How would you troubleshoot it?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-016>)
+- **SCN-023 — What would be your rollback strategy after a failed production deployment?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-023>)
+- **SCN-009 — How would you communicate with users/business during a production outage?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-009>)
+- **SCN-002 — Explain your real-time rollback strategy with an example.**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-002>)
+- **LIN-006 — Have you worked on Bash, PowerShell, or other scripting?**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-006>)
+- **LIN-004 — Explain an automation you implemented using scripting.**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-004>)
+- **CICD-018 — Explain an Azure DevOps automation you implemented using PowerShell/Bash.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-018>)
+- **LIN-005 — Explain your PowerShell automation experience.**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-005>)
+- **CICD-019 — Explain an RBAC scenario you implemented in your CI/CD pipeline.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-019>)
+- **CICD-046 — How would you implement RBAC in an Azure DevOps Pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-046>)
+- **AZ-029 — How would you use RBAC to mitigate deployment failures?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-029>)
+- **CICD-024 — Explain your RBAC strategy in Azure DevOps.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-024>)
+- **CICD-027 — Have you worked on multi-stage CI/CD pipelines (Build, Test, Deploy)?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-027>)
+- **CICD-021 — Explain SAST and DAST implementation in your CI/CD pipeline.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-021>)
+- **MON-019 — What monitoring and alerting tools have you used?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-019>)
+- **MON-022 — Which monitoring tool are you currently using?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-022>)
+- **MON-018 — What KPIs and thresholds do you monitor?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-018>)
+- **SCN-001 — Deployment works in Dev but consistently fails in QA. How would you troubleshoot it?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-001>)
+- **MISC-046 — How would you compare configurations across environments?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-046>)
+- **SCN-013 — How would you standardize Dev, QA, and Production environments?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-013>)
+- **TF-021 — How do you monitor Terraform deployment failures?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-021>)
+- **TF-012 — Explain a real-time Terraform deployment failure you resolved.**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-012>)
+- **TF-044 — What challenges have you faced during Terraform upgrades or deployments?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-044>)
+- **TF-020 — How do you manage Terraform across Dev, QA, and Production?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-020>)
+- **TF-058 — What kinds of Terraform drift have you encountered?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-058>)
+- **CICD-007 — Azure DevOps pipeline shows success, but no Azure resource is created. What could be the reason?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-007>)
+- **CICD-050 — How would you troubleshoot when the pipeline succeeds but Azure resources are missing?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-050>)
+- **TF-041 — Two engineers run Terraform Apply simultaneously on the same environment. What happens?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-041>)
+- **TF-027 — How does Terraform State Locking work?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-027>)
+- **TF-059 — When would you use terraform force-unlock? What precautions should you take?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-059>)
+- **CICD-034 — How do you integrate Azure Key Vault into Azure DevOps?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-034>)
+- **CICD-053 — If Azure Key Vault is behind a Private Endpoint, how will your pipeline access it?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-053>)
+- **AZ-022 — How do you stop or restrict traffic to an Azure App Service?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-022>)
+- **AZ-038 — What all does Azure manage automatically for an Azure App Service (PaaS)?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-038>)
+- **AZ-001 — A new developer joins your team. What Azure resources, permissions, and access would you provide?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-001>)
+- **MISC-047 — How would you configure all the required development tools for a new team member?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-047>)
+- **AZ-051 — What is the difference between Managed Identity and Service Principal?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-051>)
+- **DOC-008 — What is the difference between docker build and docker commit?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-008>)
+- **AZ-035 — Once you design an Azure Landing Zone, what are the components?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-035>)
+- **AZ-002 — After the Landing Zone is designed and created, what is the next step before deployment?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-002>)
+- **AZ-049 — What is Azure Application Gateway?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-049>)
+- **AZ-040 — What are the steps to configure Azure Application Gateway?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-040>)
+- **AZ-041 — What are the types of Azure Load Balancer?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-041>)
+- **AZ-042 — What are the types of Azure Storage Account?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-042>)
+- **TF-054 — What is the difference between terraform plan and terraform apply?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-054>)
+- **MISC-070 — What is provider.tf? What is configured in it?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-070>)
+- **AZ-032 — Is Public IP associated at the Subnet level or the VNet level?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-032>)
+- **GIT-016 — What is a branching strategy in DevOps?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-016>)
+- **MISC-072 — What is the difference between CI and CD?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-072>)
+- **AZ-018 — How do you configure a Subnet in Azure? Explain the step-by-step process.**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-018>)
+- **AZ-047 — What is an External Load Balancer?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-047>)
+- **AZ-048 — What is an Internal Load Balancer? When do you use it?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-048>)
+- **AZ-031 — If you need to modify an application running inside a VM, what precautions should you take?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-031>)
+- **AZ-030 — If a VM cannot communicate with the Internet, what could be the possible reasons?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-030>)
+- **DOC-005 — Scenario-based Docker questions.**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-005>)
+- **K8S-014 — Scenario-based Kubernetes questions.**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-014>)
+- **CICD-012 — CI/CD pipeline hands-on and scenario-based questions.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-012>)
+- **MISC-009 — DevOps hands-on implementation questions.**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-009>)
+- **MISC-008 — Day-to-day DevOps project implementation questions.**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-008>)
+- **CICD-056 — Troubleshooting scenarios related to CI/CD pipelines.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-056>)
+- **K8S-016 — Troubleshooting scenarios related to Docker and Kubernetes.**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-016>)
+- **AZ-008 — Azure networking scenario-based questions.**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-008>)
+- **TF-039 — Terraform deployment and infrastructure troubleshooting scenarios.**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-039>)
+
+> **Future workflow:** add a new question once to the appropriate `Question-Bank` file, then link it from the company file. This prevents duplicate answer maintenance.

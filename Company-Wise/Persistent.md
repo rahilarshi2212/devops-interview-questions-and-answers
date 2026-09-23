@@ -1,0 +1,209 @@
+# Persistent Interview — Interview Questions
+
+This file is an **index of questions asked in this interview source**. Answers are stored once in `Question-Bank/` so the same question does not need to be edited in multiple company files.
+
+**Unique questions in this source:** 67
+
+- **SEC-007 — DevSecOps Fundamentals**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-007>)
+- **SEC-021 — What is your understanding of DevSecOps?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-021>)
+- **SEC-004 — Can you explain DevSecOps in detail?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-004>)
+- **SEC-006 — Can you give a practical example of DevSecOps?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-006>)
+- **MISC-081 — What security best practices do you recommend during SDLC?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-081>)
+- **SEC-013 — If you had to lead a DevSecOps project, what would your approach be?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-013>)
+- **PROJ-010 — What kind of DevSecOps work have you done in your current project?**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-010>)
+- **CICD-002 — ## CI/CD Pipeline**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-002>)
+- **CICD-023 — Explain your complete CI/CD pipeline.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-023>)
+- **CICD-076 — Which security tools have you integrated into your pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-076>)
+- **TF-016 — How did you integrate SonarQube, Trivy and tfsec into your CI/CD pipeline?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-016>)
+- **CICD-028 — How are these tools invoked from the pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-028>)
+- **CICD-033 — How do you implement these stages in Azure DevOps/Jenkins?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-033>)
+- **SEC-002 — ## Vulnerability Management**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-002>)
+- **SEC-019 — What happens if Trivy detects vulnerabilities?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-019>)
+- **TF-049 — What happens when tfsec reports vulnerabilities?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-049>)
+- **SEC-023 — What vulnerability thresholds do you configure?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-023>)
+- **CICD-032 — How do you decide whether the pipeline should fail?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-032>)
+- **SEC-010 — How do you configure policies in Trivy?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-010>)
+- **MISC-011 — Do you know about Progressive Enforcement?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-011>)
+- **SEC-001 — ## SonarQube**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-001>)
+- **SEC-016 — What command is used to invoke SonarQube scan?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-016>)
+- **CICD-040 — How is SonarQube integrated into your pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-040>)
+- **GIT-010 — Is SonarQube configured at repository level or branch level?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-010>)
+- **GIT-026 — Why is SonarQube configured at branch level?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-026>)
+- **SEC-014 — Is SonarQube scan incremental or full?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-014>)
+- **SEC-005 — Can you force SonarQube to perform a full scan?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-005>)
+- **MISC-048 — How would you configure that?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-048>)
+- **TF-001 — ## Terraform Security**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-001>)
+- **TF-003 — At what stage do you run tfsec?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-003>)
+- **TF-037 — Is tfsec executed during CI or CD?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-037>)
+- **TF-045 — What command do you use to run tfsec?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-045>)
+- **TF-017 — How do you configure tfsec policies?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-017>)
+- **TF-015 — Give a real example where tfsec detected a security violation.**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-015>)
+- **MISC-088 — What was the exact violation?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-088>)
+- **MISC-098 — Why was that considered a security risk?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-098>)
+- **GIT-001 — ## GitHub Actions / Jenkins**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-001>)
+- **CICD-029 — How comfortable are you with Jenkins?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-029>)
+- **GIT-018 — What is the difference between GitHub Actions and Jenkins?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-018>)
+- **GIT-021 — What security scans are available in GitHub Actions?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-021>)
+- **GIT-008 — How do you configure GitHub Actions?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-008>)
+- **GIT-007 — How do GitHub Actions pipelines get triggered?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-007>)
+- **LIN-001 — ## Python / Scripting**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-001>)
+- **MISC-038 — How good are you with Python?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-038>)
+- **MISC-037 — How good are you with Groovy?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-037>)
+- **MISC-039 — How good are you with Ruby?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-039>)
+- **MISC-004 — Can you write a small function to extract the last two characters from a string? (Live coding)**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-004>)
+- **MISC-001 — ## Current Project**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-001>)
+- **PROJ-003 — Explain your current project.**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-003>)
+- **MISC-079 — What problem is your project solving?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-079>)
+- **PROJ-009 — What is your role in the project?**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-009>)
+- **SEC-017 — What DevSecOps work are you doing in the project?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-017>)
+- **MISC-063 — What infrastructure have you provisioned?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-063>)
+- **MISC-040 — How is the application deployed?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-040>)
+- **MISC-085 — What technologies are being used?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-085>)
+- **DOC-001 — ## Container Security**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-001>)
+- **DOC-004 — How do you perform container image scanning?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-004>)
+- **DOC-010 — Why is container image scanning important?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-010>)
+- **DOC-011 — Why should containers run as a non-root user?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-011>)
+- **MISC-097 — Why should you use minimal base images like Alpine?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-097>)
+- **SEC-022 — What Trivy command do you use for image scanning?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-022>)
+- **CICD-011 — Can you share a real example where image scanning blocked your build?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-011>)
+- **CICD-001 — ## Build Failure Scenario**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-001>)
+- **CICD-078 — Your build is blocked because of vulnerabilities. What would be your next steps?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-078>)
+- **CICD-051 — How would you unblock the build?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-051>)
+- **MISC-032 — How do you differentiate between a true positive and a false positive?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-032>)
+- **CICD-067 — What remediation process do you follow before rerunning the pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-067>)
+
+> **Future workflow:** add a new question once to the appropriate `Question-Bank` file, then link it from the company file. This prevents duplicate answer maintenance.

@@ -1,0 +1,482 @@
+# Reference Notes — Terraform with Azure -Comlete
+
+This file preserves the source workbook's study topics/questions. It is reference material, not a claim that every listed topic has a supplied answer in the workbook.
+
+- > *Master these concepts in order.* If you understand every point below, you'll have a strong foundation for *Azure DevOps Engineer, **Senior Engineer, and **Azure Cloud Architect* roles.
+- ---
+- # *Phase 1 – Cloud & Azure Fundamentals*
+- * *Cloud Computing*
+- * *Infrastructure*
+- * *Infrastructure as Code (IaC)*
+- * *Azure Global Infrastructure*
+- * *Azure Regions*
+- * *Availability Zones*
+- * *Availability Sets*
+- * *Azure Resource Manager (ARM)*
+- * *Azure Resource Groups*
+- * *Azure Resource Providers*
+- * *Azure Subscriptions*
+- * *Management Groups*
+- * *Microsoft Entra ID*
+- * *RBAC (Role-Based Access Control)*
+- * *Azure Policy*
+- * *Resource Locks*
+- * *Tags*
+- * *Naming Conventions*
+- * *Azure Landing Zone*
+- ---
+- # *Phase 2 – Terraform Fundamentals*
+- * *What is Terraform?*
+- * *Terraform Architecture*
+- * *Terraform Workflow*
+- * *Terraform Installation*
+- * *Terraform CLI*
+- * *Terraform Providers*
+- * *Terraform Resources*
+- * *Terraform Data Sources*
+- * *Terraform State*
+- * *Terraform Backend*
+- * *Terraform Modules*
+- * *Terraform Registry*
+- * *Terraform Commands*
+- * *Terraform Execution Flow*
+- * *Terraform Dependency Graph (DAG)*
+- * *Terraform Plugin System*
+- ---
+- # *Phase 3 – Terraform Configuration Files*
+- * *main.tf*
+- * *provider.tf*
+- * *versions.tf*
+- * *variables.tf*
+- * *outputs.tf*
+- * *locals.tf*
+- * *backend.tf*
+- * *terraform.tfvars*
+- * *terraform.tfvars.json*
+- * *README.md*
+- * *.terraform.lock.hcl*
+- * *.terraform Directory*
+- ---
+- # *Phase 4 – Terraform Language (HCL)*
+- * *Syntax*
+- * *Blocks*
+- * *Arguments*
+- * *Expressions*
+- * *Comments*
+- * *Strings*
+- * *Numbers*
+- * *Booleans*
+- * *Lists*
+- * *Maps*
+- * *Objects*
+- * *Tuples*
+- * *Sets*
+- * *Functions*
+- * *Operators*
+- * *Conditionals*
+- ---
+- # *Phase 5 – Variables*
+- * *Input Variables*
+- * *Variable Types*
+- * *Default Values*
+- * *Validation*
+- * *Sensitive Variables*
+- * *Nullable Variables*
+- * *Optional Variables*
+- * *Environment Variables*
+- * *Variable Files*
+- * *Variable Precedence*
+- ---
+- # *Phase 6 – Outputs & Locals*
+- * *Output Values*
+- * *Sensitive Outputs*
+- * *Output Dependencies*
+- * *Local Values*
+- * *Reusable Expressions*
+- * *Naming Standards*
+- * *Common Tags*
+- ---
+- # *Phase 7 – Terraform State Management*
+- * *terraform.tfstate*
+- * *Remote State*
+- * *Azure Storage Backend*
+- * *State Locking*
+- * *State Security*
+- * *State Migration*
+- * *State Import*
+- * *State Refresh*
+- * *State Move*
+- * *State Remove*
+- * *State Drift*
+- * *State Backup*
+- ---
+- # *Phase 8 – Terraform Modules*
+- * *What is a Module?*
+- * *Why Modules?*
+- * *Root Module*
+- * *Child Module*
+- * *Local Module*
+- * *Remote Module*
+- * *Registry Module*
+- * *Module Inputs*
+- * *Module Outputs*
+- * *Module Dependencies*
+- * *Module Composition*
+- * *Nested Modules*
+- * *Module Versioning*
+- * *Module Lifecycle*
+- * *Module Best Practices*
+- * *Enterprise Module Design*
+- ---
+- # *Phase 9 – Meta Arguments*
+- * *count*
+- * *for_each*
+- * *depends_on*
+- * *provider*
+- * *lifecycle*
+- ---
+- # *Phase 10 – Dynamic Infrastructure*
+- * *Dynamic Blocks*
+- * *for Expressions*
+- * *Conditional Resources*
+- * *Loops*
+- * *Nested Objects*
+- * *Complex Variables*
+- ---
+- # *Phase 11 – Terraform Functions*
+- * *lookup()*
+- * *merge()*
+- * *flatten()*
+- * *join()*
+- * *split()*
+- * *replace()*
+- * *concat()*
+- * *length()*
+- * *contains()*
+- * *element()*
+- * *keys()*
+- * *values()*
+- * *zipmap()*
+- * *coalesce()*
+- * *try()*
+- * *can()*
+- * *jsonencode()*
+- * *jsondecode()*
+- * *file()*
+- * *templatefile()*
+- ---
+- # *Phase 12 – Azure Networking with Terraform*
+- * *Resource Group*
+- * *Virtual Network*
+- * *Subnet*
+- * *Network Security Group*
+- * *Application Security Group*
+- * *Route Table*
+- * *User Defined Route (UDR)*
+- * *Public IP*
+- * *Private IP*
+- * *NAT Gateway*
+- * *Load Balancer*
+- * *Application Gateway*
+- * *Azure Firewall*
+- * *Bastion*
+- * *VPN Gateway*
+- * *ExpressRoute*
+- * *Private Endpoint*
+- * *Private Link*
+- * *Private DNS*
+- * *DNS Zone*
+- * *Azure Front Door*
+- * *Traffic Manager*
+- ---
+- # *Phase 13 – Azure Compute*
+- * *Virtual Machine*
+- * *Availability Set*
+- * *Availability Zone*
+- * *Managed Disk*
+- * *Disk Encryption*
+- * *VM Scale Set*
+- * *Custom Images*
+- * *Azure Compute Gallery*
+- * *Managed Identity*
+- ---
+- # *Phase 14 – Azure Storage*
+- * *Storage Account*
+- * *Blob Storage*
+- * *File Share*
+- * *Queue Storage*
+- * *Table Storage*
+- * *Storage Lifecycle*
+- * *Storage Firewall*
+- * *Private Endpoint*
+- * *Encryption*
+- ---
+- # *Phase 15 – Azure Security*
+- * *Key Vault*
+- * *Secrets*
+- * *Keys*
+- * *Certificates*
+- * *Managed Identity*
+- * *RBAC*
+- * *Azure Policy*
+- * *Resource Locks*
+- * *Defender for Cloud*
+- * *Microsoft Sentinel*
+- * *Diagnostic Settings*
+- ---
+- # *Phase 16 – Azure Containers*
+- * *Azure Kubernetes Service (AKS)*
+- * *Azure Container Registry (ACR)*
+- * *Node Pools*
+- * *Azure CNI*
+- * *Network Policies*
+- * *Ingress*
+- * *Workload Identity*
+- * *Monitoring*
+- ---
+- # *Phase 17 – Monitoring & Backup*
+- * *Azure Monitor*
+- * *Log Analytics Workspace*
+- * *Application Insights*
+- * *Diagnostic Settings*
+- * *Recovery Services Vault*
+- * *Azure Backup*
+- * *Alerts*
+- * *Metrics*
+- * *Logs*
+- ---
+- # *Phase 18 – Enterprise Terraform*
+- * *Repository Structure*
+- * *Folder Structure*
+- * *Environment Separation (Dev/QA/UAT/Prod)*
+- * *Remote Backend*
+- * *Shared Modules*
+- * *Module Registry*
+- * *Git Versioning*
+- * *Semantic Versioning*
+- * *Reusable Code*
+- * *Naming Standards*
+- * *Tagging Standards*
+- * *Governance*
+- * *Policy as Code*
+- * *Security by Default*
+- ---
+- # *Phase 19 – CI/CD*
+- * *Azure DevOps*
+- * *GitHub Actions*
+- * *Terraform fmt*
+- * *Terraform validate*
+- * *Terraform plan*
+- * *Terraform apply*
+- * *Terraform destroy*
+- * *Approval Gates*
+- * *Pipeline Templates*
+- * *State Management*
+- * *Secrets Management*
+- ---
+- # *Phase 20 – Testing & Security*
+- * *Terratest*
+- * *TFLint*
+- * *tfsec*
+- * *Checkov*
+- * *Pre-Commit Hooks*
+- * *Code Review*
+- * *Static Analysis*
+- * *Security Scanning*
+- ---
+- # *Phase 21 – Azure Landing Zone*
+- * *Management Groups*
+- * *Subscriptions*
+- * *Hub-and-Spoke Network*
+- * *Identity*
+- * *Connectivity*
+- * *Shared Services*
+- * *Security*
+- * *Governance*
+- * *Monitoring*
+- * *Backup*
+- * *Disaster Recovery*
+- * *Platform Services*
+- * *Workload Deployment*
+- ---
+- # *Phase 22 – Azure Architect Concepts*
+- * *High Availability (HA)*
+- * *Disaster Recovery (DR)*
+- * *Scalability*
+- * *Fault Tolerance*
+- * *Business Continuity*
+- * *Zero Trust Security*
+- * *Least Privilege Access*
+- * *Cost Optimization*
+- * *Performance Optimization*
+- * *Well-Architected Framework*
+- * *Multi-Subscription Design*
+- * *Multi-Region Deployment*
+- * *Hub-and-Spoke Architecture*
+- * *Landing Zone Design*
+- * *Enterprise Governance*
+- * *Production Troubleshooting*
+- * *Migration Strategy*
+- * *Infrastructure Lifecycle Management*
+- ## *🎯 Final Goal*
+- If you understand and can explain each *bold* concept above with:
+- * *What it is*
+- * *Why it is used*
+- * *How it works*
+- * *Where it is used*
+- * *Azure production example*
+- * *Best practices*
+- * *Common interview questions*
+- Volume 1 – Azure Fundamentals & Governance*
+- * *Azure Architecture*
+- * *Azure Regions & Region Pairs*
+- * *Availability Zones*
+- * *Azure Resource Manager (ARM)*
+- * *Microsoft Entra ID*
+- * *Management Groups*
+- * *Subscriptions*
+- * *Resource Groups*
+- * *Tags*
+- * *Azure Policy*
+- * *Initiatives*
+- * *Resource Locks*
+- * *RBAC (Role-Based Access Control)*
+- * *ABAC (Attribute-Based Access Control)*
+- * *Privileged Identity Management (PIM)*
+- * *Conditional Access*
+- * *Identity Protection*
+- * *Azure Landing Zone*
+- * *Enterprise-Scale Architecture*
+- ---
+- # *📘 Volume 2 – Azure Networking (Deep Dive)*
+- * *Virtual Network (VNet)*
+- * *Subnets*
+- * *Network Security Groups (NSG)*
+- * *Application Security Groups (ASG)*
+- * *User Defined Routes (UDR)*
+- * *NAT Gateway*
+- * *Azure DNS*
+- * *Private DNS*
+- * *Service Endpoints*
+- * *Private Endpoints*
+- * *Virtual Network Peering*
+- * *Global VNet Peering*
+- * *VPN Gateway*
+- * *Point-to-Site (P2S) VPN*
+- * *Site-to-Site (S2S) VPN*
+- * *VNet-to-VNet Connectivity*
+- * *ExpressRoute*
+- * *Virtual WAN*
+- * *Azure Firewall*
+- * *Azure Bastion*
+- * *Azure DDoS Protection*
+- ---
+- # *📘 Volume 3 – Compute*
+- * *Azure Virtual Machines (VM)*
+- * *Virtual Machine Scale Sets (VMSS)*
+- * *Availability Sets*
+- * *Availability Zones*
+- * *Dedicated Hosts*
+- * *Azure App Service*
+- * *App Service Plan*
+- * *Azure Functions*
+- * *Logic Apps*
+- * *Azure Container Apps*
+- * *Azure Container Instances (ACI)*
+- ---
+- # *📘 Volume 4 – Storage & Database*
+- * *Azure Storage Account*
+- * *Blob Storage*
+- * *Azure Files*
+- * *Queue Storage*
+- * *Table Storage*
+- * *Managed Disks*
+- * *Azure SQL Database*
+- * *Azure SQL Managed Instance*
+- * *Azure Cosmos DB*
+- * *Azure Database for PostgreSQL*
+- * *Azure Database for MySQL*
+- * *Azure Cache for Redis*
+- ---
+- # *📘 Volume 5 – Security*
+- * *Azure Key Vault*
+- * *Microsoft Defender for Cloud*
+- * *Microsoft Sentinel*
+- * *Web Application Firewall (WAF)*
+- * *Azure Firewall*
+- * *Network Security Groups (NSG)*
+- * *Application Security Groups (ASG)*
+- * *Azure Policy*
+- * *Encryption (At Rest & In Transit)*
+- * *Managed Identity*
+- * *Secrets & Certificates Management*
+- * *Zero Trust Architecture*
+- ---
+- # *📘 Volume 6 – Monitoring & Observability*
+- * *Azure Monitor*
+- * *Log Analytics Workspace*
+- * *Application Insights*
+- * *Alerts*
+- * *Metrics*
+- * *Diagnostic Settings*
+- * *Azure Workbooks*
+- * *Managed Prometheus*
+- * *Managed Grafana*
+- ---
+- # *📘 Volume 7 – Backup & Disaster Recovery*
+- * *Azure Backup*
+- * *Recovery Services Vault*
+- * *Backup Vault*
+- * *Azure Site Recovery (ASR)*
+- * *Region Pairs*
+- * *Geo-Replication*
+- * *Recovery Point Objective (RPO)*
+- * *Recovery Time Objective (RTO)*
+- * *Failover*
+- * *Failback*
+- ---
+- # *📘 Volume 8 – DevOps & Infrastructure as Code (IaC)*
+- * *Git*
+- * *GitHub*
+- * *Azure DevOps*
+- * *Azure Pipelines*
+- * *Terraform*
+- * *Bicep*
+- * *ARM Templates*
+- * *CI/CD Pipelines*
+- * *Blue-Green Deployment*
+- * *Canary Deployment*
+- * *Rollback Strategies*
+- ---
+- # *📘 Volume 9 – Enterprise Architecture*
+- * *Cloud Adoption Framework (CAF)*
+- * *Azure Landing Zones*
+- * *Hub-and-Spoke Architecture*
+- * *Enterprise Networking*
+- * *Multi-Subscription Design*
+- * *Multi-Region Design*
+- * *High Availability (HA)*
+- * *Disaster Recovery (DR)*
+- * *Cost Optimization*
+- * *Governance*
+- * *Production Readiness Checklists*
+- ---
+- # *📖 Har Topic ka Standard Format*
+- Har *Azure Service* ko *Architect-Level* depth me isi structure ke saath cover kiya jayega:
+- 1. *Introduction*
+- 2. *Why This Service Exists*
+- 3. *Architecture*
+- 4. *Core Components*
+- 5. *Step-by-Step Request Flow*
+- 6. *Real-World Production Use Cases*
+- 7. *Architecture & Design Considerations*
+- 8. *Microsoft Best Practices*
+- 9. *Security Best Practices*
+- 10. *Monitoring & Observability*
+- 11. *Backup & Disaster Recovery*
+- 12. *Cost Optimization Techniques*
+- 13. *Common Interview Questions*
+- 14. *Real-Time Troubleshooting Scenarios*
+- 15. *Hands-on Implementation*
+- 16. *Terraform Implementation (Where Applicable)*
+- 17. *Production Readiness Checklist*

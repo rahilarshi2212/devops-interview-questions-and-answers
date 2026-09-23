@@ -1,0 +1,299 @@
+# NAB & Quess Interview — Interview Questions
+
+This file is an **index of questions asked in this interview source**. Answers are stored once in `Question-Bank/` so the same question does not need to be edited in multiple company files.
+
+**Unique questions in this source:** 97
+
+- **CICD-045 — How would you design a production-grade CI/CD pipeline from scratch?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-045>)
+- **K8S-010 — How would you design a CI/CD pipeline for deploying applications to a multi-region AKS/EKS cluster?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-010>)
+- **MISC-050 — How would you ensure that deployment to the next region only happens if deployment and validation succeed in the previous region?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-050>)
+- **MISC-051 — How would you implement automated deployment promotion between regions?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-051>)
+- **CICD-066 — What is synthetic testing, and how would you integrate it into a CI/CD pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-066>)
+- **CICD-070 — What stages would you include in a production-grade CI/CD pipeline from code checkout to deployment notification?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-070>)
+- **SCN-008 — How would you automate deployment validation and rollback?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-008>)
+- **CICD-043 — How would you authenticate your CI/CD pipeline with Azure or AWS?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-043>)
+- **MISC-036 — How does authentication work between the Version Control System and the Cloud?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-036>)
+- **AZ-054 — When would you use Managed Identity instead of a Service Principal?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-054>)
+- **K8S-017 — What deployment strategies are available in Kubernetes?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-017>)
+- **MISC-019 — Explain Rolling Update, Canary, and Blue-Green deployment strategies. What are the differences, and which one is the most cost-effective?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-019>)
+- **CICD-068 — What security controls would you include in a banking application's CI/CD pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-068>)
+- **CICD-049 — How would you secure secrets in your CI/CD pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-049>)
+- **CICD-048 — How would you integrate Azure Key Vault into a CI/CD pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-048>)
+- **SEC-012 — How would you prevent hardcoded secrets in your applications?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-012>)
+- **CICD-047 — How would you implement RBAC in your CI/CD process?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-047>)
+- **CICD-072 — Where would you integrate SonarQube in the pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-072>)
+- **CICD-042 — How would Private Endpoints improve pipeline security?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-042>)
+- **AZ-028 — How would you secure communication between Azure Bastion and a Production VM?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-028>)
+- **MISC-082 — What security configurations would you implement for Bastion access?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-082>)
+- **AZ-062 — Why should Production VMs not have Public IP addresses?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-062>)
+- **SCN-012 — How would you secure communication between a Bastion Host and a Production Server?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-012>)
+- **SCN-021 — What networking security measures would you implement for Production workloads?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-021>)
+- **TF-031 — How would you migrate existing ClickOps infrastructure to Infrastructure as Code using Terraform?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-031>)
+- **TF-032 — How would you migrate infrastructure across multiple AWS/Azure accounts using Terraform?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-032>)
+- **TF-029 — How would you design reusable Terraform modules for a large enterprise?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-029>)
+- **TF-014 — Explain your Terraform module architecture, including Root Modules and Child Modules.**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-014>)
+- **TF-030 — How would you import existing cloud resources into Terraform? What is the purpose of the Terraform Import Block?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-030>)
+- **SCN-011 — How would you perform infrastructure migration with minimal downtime?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-011>)
+- **TF-051 — What is Terraform State Locking, and how would you unlock a locked Terraform state?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-051>)
+- **TF-033 — How would you resolve a locked Terraform state when using Terraform Enterprise without Terraform installed locally?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-033>)
+- **TF-028 — How is Terraform state managed in Terraform Enterprise?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-028>)
+- **MON-009 — How would you design an observability solution for a production application?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-009>)
+- **MON-015 — What dashboards would you create for monitoring a production workload?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-015>)
+- **MON-013 — Suppose 30% of requests are timing out, 30% have high latency, and the rest are successful. What dashboards and alerts would you configure?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-013>)
+- **MON-008 — How would you design an alerting strategy for production systems?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-008>)
+- **MON-010 — How would you implement threshold-based monitoring and alerting?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-010>)
+- **MON-017 — What key metrics (KPIs) would you include in your monitoring dashboards?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-017>)
+- **MON-020 — What would you include in a Latency Dashboard?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-020>)
+- **MON-021 — What would you include in an Error Dashboard?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-021>)
+- **MON-016 — What is latency in distributed systems?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-016>)
+- **MON-002 — Explain P50, P95, and P99 latency. What are the differences, and when would you use each?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-002>)
+- **AWS-007 — How would you approach migrating workloads from AWS to Azure?**
+  - Category: `AWS`
+  - [Open the canonical answer](<../Question-Bank/AWS.md#aws-007>)
+- **AWS-008 — How would you manage a multi-cloud environment (AWS, Azure, and GCP)?**
+  - Category: `AWS`
+  - [Open the canonical answer](<../Question-Bank/AWS.md#aws-008>)
+- **MISC-049 — How would you design a secure cloud architecture for a banking application?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-049>)
+- **CICD-044 — How would you design a highly available, production-grade CI/CD pipeline for a banking application?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-044>)
+- **MISC-045 — How would you achieve zero-downtime deployments?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-045>)
+- **MISC-052 — How would you verify that an application deployment is successful from both a system and an end-user perspective?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-052>)
+- **SCN-010 — How would you ensure secure communication between users, Bastion Hosts, and Production Servers?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-010>)
+- **TF-034 — How would you standardize Terraform code across 20+ cloud accounts?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-034>)
+- **MON-011 — How would you monitor application health and automatically notify the operations team when thresholds are breached?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-011>)
+- **CICD-058 — Walk through the CI/CD workflow you actually run and how you define pipelines in Jenkins.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-058>)
+- **CICD-060 — What are shared libraries in Jenkins and how do you write and wire them?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-060>)
+- **CICD-073 — Which apps do you push through Jenkins pipelines and which deployment tools do you pair them with?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-073>)
+- **K8S-003 — Build fails even though the pipeline runs—what usually breaks?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-003>)
+- **GIT-022 — What’s a webhook and how do you use it in real pipelines?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-022>)
+- **TF-025 — How do you spin up Kubernetes clusters with Terraform and what do the master and worker nodes actually do?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-025>)
+- **K8S-004 — CrashLoopBackOff, ImagePullError—name the Kubernetes errors you’ve fixed and how.**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-004>)
+- **K8S-008 — How do you exec into a pod and what’s the right way to define objects?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-008>)
+- **K8S-002 — Break down a basic Helm chart folder and the commands you use to ship it.**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-002>)
+- **DOC-007 — What happens in each stage of a Docker build and why do ENTRYPOINT and CMD matter?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-007>)
+- **AWS-006 — How do you wire DBs, EC2, EKS, and ECS together and what’s the command to hit ECS?**
+  - Category: `AWS`
+  - [Open the canonical answer](<../Question-Bank/AWS.md#aws-006>)
+- **DOC-009 — Which container registry do you trust for your images?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-009>)
+- **MISC-058 — Round 2: In-depth Technical Screening**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-058>)
+- **GIT-015 — What branching strategy keeps your release branch clean and how do you hotfix production?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-015>)
+- **CICD-057 — Walk me through your full deployment flow and the exact stages in your Jenkinsfile.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-057>)
+- **CICD-031 — How do shared libraries slot into your Jenkinsfiles?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-031>)
+- **CICD-075 — Which security scanning tools do you run on images at build and registry time?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-075>)
+- **DOC-003 — How do you inject environment variables during Docker builds and where do you store images?**
+  - Category: `Docker`
+  - [Open the canonical answer](<../Question-Bank/Docker.md#doc-003>)
+- **MISC-029 — How do you connect databases in your infrastructure?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-029>)
+- **SEC-009 — How do you authenticate to EKS and keep secrets safe?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-009>)
+- **AWS-005 — How do you create Lambda functions and push artifacts?**
+  - Category: `AWS`
+  - [Open the canonical answer](<../Question-Bank/AWS.md#aws-005>)
+- **K8S-024 — What’s signing for email and Helm charts and which tools do you use?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-024>)
+- **PROJ-002 — Can you give me a quick introduction about yourself and your professional experience?**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-002>)
+- **CICD-041 — how long have you worked with Jenkins?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-041>)
+- **CICD-017 — During those period with on Jenkins, what exactly did you do?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-017>)
+- **CICD-013 — Did you make any changes to the Jenkins pipeline, or were you only responsible for running the already configured pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-013>)
+- **CICD-025 — Have you ever created a new Jenkins pipeline from scratch?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-025>)
+- **TF-005 — Can you share your screen and draw a block diagram of your build/deployment environment using GitHub, GitHub Actions, Terraform, and Azure?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-005>)
+- **GIT-023 — When exactly does the GitHub Actions pipeline trigger?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-023>)
+- **GIT-012 — On every push? Or when a Pull Request is created?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-012>)
+- **MISC-092 — Where is that trigger configured?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-092>)
+- **GIT-024 — Where does the GitHub Actions pipeline code reside?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-024>)
+- **GIT-011 — Is your GitHub a Cloud GitHub instance or an Enterprise GitHub instance?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-011>)
+- **GIT-009 — In which directory of the GitHub repository are the GitHub Actions workflow files located?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-009>)
+- **GIT-025 — Which specific YAML file is responsible for triggering the pipeline on a branch push?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-025>)
+- **GIT-014 — What are the main sections inside a GitHub Actions YAML workflow file?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-014>)
+- **GIT-005 — Does the GitHub Actions workflow file also contain information about which machine (runner) the pipeline should execute on?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-005>)
+- **GIT-020 — What is the name of the section where the runner information is defined?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-020>)
+- **GIT-017 — What is the difference between a Self-hosted GitHub Runner and a GitHub-hosted Runner?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-017>)
+- **GIT-019 — What is the difference in the setup process between a Self-hosted Runner and a GitHub-hosted Runner?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-019>)
+- **GIT-013 — Suppose I have a VM running in my infrastructure and I want to use it as a Self-hosted GitHub Runner. What are the setup steps to configure that VM as a runner?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-013>)
+- **CICD-071 — When the pipeline triggers on a push, where is that trigger logic written?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-071>)
+- **GIT-027 — You mentioned separate repositories for Dev, Test, and QA. Are you creating separate repositories or just separate branches?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-027>)
+- **GIT-002 — Can you tell me the exact GitHub Actions YAML file that triggers the workflow?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-002>)
+- **GIT-003 — Can you tell the section that specifies the runner (runs-on)?**
+  - Category: `Git & GitHub`
+  - [Open the canonical answer](<../Question-Bank/Git-GitHub.md#git-003>)
+
+> **Future workflow:** add a new question once to the appropriate `Question-Bank` file, then link it from the company file. This prevents duplicate answer maintenance.

@@ -1,0 +1,242 @@
+# Wipro L3 Devops question — Interview Questions
+
+This file is an **index of questions asked in this interview source**. Answers are stored once in `Question-Bank/` so the same question does not need to be edited in multiple company files.
+
+**Unique questions in this source:** 78
+
+- **MISC-055 — Introduction**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-055>)
+- **PROJ-007 — Tell me about yourself.**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-007>)
+- **PROJ-008 — What is your current role?**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-008>)
+- **MISC-080 — What project are you working on?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-080>)
+- **PROJ-012 — Which organization are you working for?**
+  - Category: `Project & Behavioral`
+  - [Open the canonical answer](<../Question-Bank/Project-Behavioral.md#proj-012>)
+- **AZ-033 — Is your project Azure-based?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-033>)
+- **AWS-004 — Do you have AWS experience?**
+  - Category: `AWS`
+  - [Open the canonical answer](<../Question-Bank/AWS.md#aws-004>)
+- **MISC-099 — ⸻**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-099>)
+- **CICD-005 — Azure DevOps / CI-CD**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-005>)
+- **CICD-022 — Explain your CI/CD pipeline.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-022>)
+- **CICD-062 — What are the stages in your Azure DevOps pipeline?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-062>)
+- **CICD-039 — How does the pipeline start after the developer pushes code?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-039>)
+- **CICD-014 — Difference between Classic Pipeline and YAML Pipeline.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-014>)
+- **CICD-059 — What are Azure DevOps Agents?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-059>)
+- **CICD-015 — Difference between Microsoft-hosted Agent and Self-hosted Agent.**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-015>)
+- **CICD-063 — What are Variable Groups?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-063>)
+- **TF-019 — How do you integrate Terraform with Azure DevOps?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-019>)
+- **CICD-052 — If a pipeline fails during deployment, how do you troubleshoot it?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-052>)
+- **CICD-064 — What if your pipeline suddenly starts taking twice as much time as before?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-064>)
+- **TF-038 — Terraform**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-038>)
+- **TF-050 — What is Terraform State File?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-050>)
+- **MISC-096 — Why do we store the State File remotely?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-096>)
+- **TF-057 — What is the Terraform workflow?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-057>)
+- **TF-046 — What happens if someone manually changes a resource managed by Terraform?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-046>)
+- **MISC-069 — What is Configuration Drift?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-069>)
+- **TF-048 — What happens if Terraform Apply fails after creating some resources?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-048>)
+- **TF-023 — How do you recover a deleted Terraform State File?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-023>)
+- **TF-061 — Which command do you use to recover Terraform State?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-061>)
+- **TF-008 — Difference between Terraform Plan and Apply.**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-008>)
+- **TF-052 — What is Terraform Taint? (he asked “terraform taint”)**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-052>)
+- **AZ-009 — Azure Scenarios**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-009>)
+- **MON-001 — A website becomes slow but Azure Monitor shows everything is green. What will you check?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-001>)
+- **MISC-006 — CPU utilization reaches 100%. What will you do?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-006>)
+- **MISC-060 — Website returns HTTP 503 after deployment. What will you check?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-060>)
+- **SCN-015 — Production database becomes slow. What will you check?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-015>)
+- **MISC-056 — OS is running slow but CPU and Memory look normal. What will you check?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-056>)
+- **CICD-055 — Pipeline deployment fails because backend is inaccessible. How will you fix it?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-055>)
+- **LIN-007 — Linux**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-007>)
+- **LIN-008 — What is a Cron Job?**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-008>)
+- **LIN-002 — A Cron Job hasn’t run for 3 days. How will you troubleshoot it?**
+  - Category: `Linux & Scripting`
+  - [Open the canonical answer](<../Question-Bank/Linux-Scripting.md#lin-002>)
+- **K8S-007 — Docker & Kubernetes**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-007>)
+- **MISC-044 — How will you deploy an application to 500+ servers in different geographical regions?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-044>)
+- **K8S-020 — What is CrashLoopBackOff?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-020>)
+- **K8S-009 — How will you troubleshoot CrashLoopBackOff?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-009>)
+- **K8S-005 — Difference between DaemonSet and Deployment.**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-005>)
+- **K8S-022 — What is HPA (Horizontal Pod Autoscaler)?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-022>)
+- **K8S-019 — What is Cluster Autoscaler?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-019>)
+- **MISC-067 — What is Blue-Green Deployment?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-067>)
+- **MISC-068 — What is Canary Deployment?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-068>)
+- **K8S-021 — What is Helm Rollback?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-021>)
+- **K8S-011 — If someone deletes a Kubernetes namespace in Production, what will you do?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-011>)
+- **K8S-018 — What if Pods become unhealthy after deployment?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-018>)
+- **K8S-023 — What will you check if the Ingress is not working?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-023>)
+- **MON-012 — Monitoring**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-012>)
+- **MON-023 — Which monitoring tool have you used?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-023>)
+- **MON-003 — Have you used Azure Monitor?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-003>)
+- **MON-004 — Have you used Nagios?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-004>)
+- **MON-006 — How do you monitor deployments?**
+  - Category: `Monitoring & Observability`
+  - [Open the canonical answer](<../Question-Bank/Monitoring-Observability.md#mon-006>)
+- **MISC-059 — Security**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-059>)
+- **CICD-036 — How do you secure Azure DevOps?**
+  - Category: `CI/CD`
+  - [Open the canonical answer](<../Question-Bank/CI-CD.md#cicd-036>)
+- **AZ-021 — How do you secure your Azure environment?**
+  - Category: `Azure`
+  - [Open the canonical answer](<../Question-Bank/Azure.md#az-021>)
+- **AWS-002 — Difference between Security Group and NACL? (AWS networking question)**
+  - Category: `AWS`
+  - [Open the canonical answer](<../Question-Bank/AWS.md#aws-002>)
+- **SEC-015 — Vulnerability / DevSecOps**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-015>)
+- **SEC-024 — What will you do if vulnerability scanning reports a critical vulnerability?**
+  - Category: `DevSecOps`
+  - [Open the canonical answer](<../Question-Bank/DevSecOps.md#sec-024>)
+- **MISC-033 — How do you handle security vulnerabilities during deployment?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-033>)
+- **SCN-018 — Production Scenarios**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-018>)
+- **SCN-019 — Tell me about a Production Incident you handled.**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-019>)
+- **SCN-003 — Have you ever rolled back a Production deployment?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-003>)
+- **MISC-090 — What was the reason?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-090>)
+- **SCN-005 — How did you troubleshoot it?**
+  - Category: `Scenario Based`
+  - [Open the canonical answer](<../Question-Bank/Scenario-Based.md#scn-005>)
+- **MISC-024 — GitOps / ArgoCD**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-024>)
+- **MISC-026 — Have you worked on ArgoCD?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-026>)
+- **K8S-015 — Suppose a Helm chart change impacts all production clusters. What will you do?**
+  - Category: `Kubernetes`
+  - [Open the canonical answer](<../Question-Bank/Kubernetes.md#k8s-015>)
+- **MISC-002 — AI**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-002>)
+- **MISC-027 — Have you worked on LangChain?**
+  - Category: `Misc`
+  - [Open the canonical answer](<../Question-Bank/Misc.md#misc-027>)
+- **AWS-001 — AWS**
+  - Category: `AWS`
+  - [Open the canonical answer](<../Question-Bank/AWS.md#aws-001>)
+- **TF-047 — What happens if someone manually changes an AWS resource managed by Terraform?**
+  - Category: `Terraform`
+  - [Open the canonical answer](<../Question-Bank/Terraform.md#tf-047>)
+- **AWS-003 — Difference between Security Groups and NACL.**
+  - Category: `AWS`
+  - [Open the canonical answer](<../Question-Bank/AWS.md#aws-003>)
+
+> **Future workflow:** add a new question once to the appropriate `Question-Bank` file, then link it from the company file. This prevents duplicate answer maintenance.
